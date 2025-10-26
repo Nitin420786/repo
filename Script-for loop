@@ -1,0 +1,9 @@
+#!/bim/bash
+
+for ((i=1; i<= 5; i++))
+do	
+	read -p "Enter user Name: " name
+	useradd $name
+	echo "User Created"
+done
+You have new mail in /var/spool/mail/root
